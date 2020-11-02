@@ -6,3 +6,78 @@
   --secondary-color: black;
   --white: white;
 }
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+  color: var(--secoundary-color);
+  padding: 0 20px;
+}
+header .logo {
+  width: 50%;
+
+  font-size: 10px;
+  align-items: center;
+  margin-left: 100px;
+}
+nav {
+  width: 50%;
+  margin-left: 50px;
+  justify-content: center;
+  font-size: 15px;
+}
+
+ul li {
+  display: inline-block;
+  transform-style: preserve-3d;
+}
+ul li a {
+  color: black;
+  display: block;
+  position: relative;
+}
+ul li a span {
+  display: block;
+  padding: 0 20px;
+}
+ul li a span:before {
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: red;
+  padding: 0 20px;
+  transform-style: preserve-3d;
+  transition: 0.2s;
+  transform: rotateX(90deg) translateY(50px);
+  transform-origin: bottom;
+  background-color: white;
+}
+ul li a span:hover:before {
+  transform: rotateX(0deg) translateY(0px);
+}
+ul li a span:after {
+  content: attr();
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+
+  padding: 0 20px;
+  transform-style: preserve-3d;
+  transition: 0.2s;
+  transform: rotateX(0deg) translateY(0px);
+  transform-origin: bottom;
+}
+ul li a span:hover:after {
+  transform: rotateX(90deg) translateY(-10px);
+}
