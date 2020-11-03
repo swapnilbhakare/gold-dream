@@ -1,0 +1,45 @@
+[33mcommit 9f9f507a9a6aee90920f088abdb3a9b5b94643d3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: swapnil bhakare <swapnilbhakre7@gmail.com>
+Date:   Mon Nov 2 14:17:47 2020 +0530
+
+    add navbar and style with animation
+
+[33mcommit 5deaa179fa7da8f82b4b9fb110be47739d01aba0[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: swapnil bhakare <swapnilbhakre7@gmail.com>
+Date:   Sun Nov 1 16:24:21 2020 +0530
+
+    add css veriable in css file  and add header section in html
+
+[33mcommit 76ccc62f6847ac6758f34da44a07f5ff3e5c49b9[m
+Merge: fef0f8e 314193c
+Author: swapnil bhakare <swapnilbhakre7@gmail.com>
+Date:   Sun Nov 1 16:09:47 2020 +0530
+
+    Merge branch 'main' of https://github.com/swapnilbhakare/gold-dream into main
+
+[33mcommit fef0f8e8ef88ac1fe91461e4621dddb6d1bad435[m
+Author: swapnil bhakare <swapnilbhakre7@gmail.com>
+Date:   Sun Nov 1 16:08:14 2020 +0530
+
+    add folders css and js with files
+
+[33mcommit 314193c89d88fc79a388c7e9066ad0174f5386f6[m
+Merge: e701aab c1037dc
+Author: sonalisonawane <66239376+sonalisonawane@users.noreply.github.com>
+Date:   Sat Oct 31 23:05:54 2020 -1100
+
+    Merge pull request #1 from swapnilbhakare/sonali
+    
+    initial commit
+
+[33mcommit c1037dc475e809a1536de8494b7f37916d2fdb26[m[33m ([m[1;31morigin/sonali[m[33m)[m
+Author: sonalisonawane <66239376+sonalisonawane@users.noreply.github.com>
+Date:   Sat Oct 31 23:03:04 2020 -1100
+
+    initial commit
+
+[33mcommit e701aabd2af45e542156c8eb8a197ad653a9f8b9[m
+Author: sonalisonawane <66239376+sonalisonawane@users.noreply.github.com>
+Date:   Sat Oct 31 22:51:28 2020 -1100
+
+    Create index.html
