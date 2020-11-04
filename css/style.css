@@ -211,16 +211,6 @@ h1.main_heading {
   height: 100%;
 }
 
-#social-links a {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#social-links a::after {
-  padding: 0 20px;
-  content: "";
-}
-
 .right-wrapper h3 {
   padding: 20px 80px;
   font-size: 25px;
@@ -228,6 +218,8 @@ h1.main_heading {
 }
 
 .right-wrapper p {
-  padding: 20px 80px;
+  padding: 10px 80px;
   text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
 }
