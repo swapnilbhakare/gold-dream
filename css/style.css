@@ -128,10 +128,23 @@ div .img {
     margin-right: 127px;
     box-shadow: 0px 6px 6px grey;
     border-radius: 6px;
+    animation: imageffect 1.5s;
+}
+
+@keyframes imageffect {
+    0% {
+        opacity: 0.7;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .sonu {
-    background-image: url(../images/sonu.jpg);
+    background-image: url(../images/sonu1.jpg);
+    background-position: 0px -101px;
 }
 
 .mango {
@@ -143,10 +156,21 @@ h1.main_heading {
     font-weight: normal;
     font-size: 3rem;
     margin-left: 50px;
+    animation: text 2s;
 }
+
+
+/* @keyframes text {
+    0% {
+        opacity:0
+        
+    }
+    100% {}
+} */
 
 #head {
     animation: colorchange 2s infinite;
+    font-weight: bold;
 }
 
 @keyframes colorchange {
