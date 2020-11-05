@@ -174,14 +174,13 @@ div .img {
 }
 
 h1.main_heading {
-    <<<<<<< HEAD font-weight: normal;
+    font-weight: normal;
     font-size: 3rem;
     margin-left: 50px;
     animation: text 2s;
-    =======font-weight: normal;
+    font-weight: normal;
     font-size: 3rem;
     margin-left: 50px;
-    >>>>>>>ab324466cb724f007f25bfb58558cbcfa1ab0ed3
 }
 
 
@@ -194,10 +193,9 @@ h1.main_heading {
 } */
 
 #head {
-    <<<<<<< HEAD animation: colorchange 2s infinite;
+    animation: colorchange 2s infinite;
     font-weight: bold;
-    =======animation: colorchange 2s infinite;
-    >>>>>>>ab324466cb724f007f25bfb58558cbcfa1ab0ed3
+    animation: colorchange 2s infinite;
 }
 
 @keyframes colorchange {
