@@ -1,126 +1,131 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
 
 /* veriables */
 
 :root {
-    --primary-color: tomato;
-    --secondary-color: black;
-    --white: white;
+  --primary-color: tomato;
+  --secondary-color: black;
+  --white: white;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    /* font-family: "Noto Sans JP", sans-serif; */
-    /* font-family: "Itim", cursive; */
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Noto Sans JP", sans-serif; */
+  /* font-family: "Itim", cursive; */
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* header section style */
 
 header {
-    display: flex;
-    justify-content: center;
-    color: var(--secoundary-color);
-    padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  color: var(--secoundary-color);
+  padding: 0 20px;
 }
-
 
 /* headaer logo */
 
 header .logo {
-    width: 50%;
-    font-size: 18px;
-    align-items: center;
-    margin-left: 100px;
+  width: 50%;
+  font-size: 18px;
+  align-items: center;
+  margin-left: 100px;
+  left: 100px;
+  position: fixed;
+  width: 50%;
+  font-size: 15px;
 }
-
 
 /* navigation style */
 
 nav {
-    width: 50%;
-    margin-left: 50px;
-    justify-content: center;
-    font-size: 21px;
+  width: 50%;
+  margin-left: 50px;
+  justify-content: center;
+  font-size: 21px;
+  position: fixed;
+  right: 100px;
+  justify-content: center;
+  font-size: 21px;
 }
 
 ul li {
-    display: inline-block;
-    transform-style: preserve-3d;
+  display: inline-block;
+  transform-style: preserve-3d;
 }
 
 ul li a {
-    color: black;
-    display: block;
-    position: relative;
+  color: black;
+  display: block;
+  position: relative;
 }
 
 ul li a span {
-    display: block;
-    padding: 0 20px;
+  display: block;
+  padding: 0 20px;
 }
 
 ul li a span:before {
-    content: attr(title);
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: red;
-    padding: 0 20px;
-    transform-style: preserve-3d;
-    transition: 0.2s;
-    transform: rotateX(90deg) translateY(50px);
-    transform-origin: bottom;
-    background-color: white;
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+  padding: 0 20px;
+  transform-style: preserve-3d;
+  transition: 0.2s;
+  transform: rotateX(90deg) translateY(50px);
+  transform-origin: bottom;
+  background-color: white;
 }
 
 ul li a span:hover:before {
-    transform: rotateX(0deg) translateY(0px);
+  transform: rotateX(0deg) translateY(0px);
 }
 
 ul li a span:after {
-    content: attr();
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: black;
-    padding: 0 20px;
-    transform-style: preserve-3d;
-    transition: 0.2s ease;
-    transform: rotateX(0deg) translateY(0px);
-    transform-origin: bottom;
+  content: attr();
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  padding: 0 20px;
+  transform-style: preserve-3d;
+  transition: 0.2s ease;
+  transform: rotateX(0deg) translateY(0px);
+  transform-origin: bottom;
 }
 
 ul li a span:hover:after {
-    transform: rotateX(90deg) translateY(-10px);
+  transform: rotateX(90deg) translateY(-10px);
 }
 
-
 /* ---end header styling-- */
-
 
 /* main styling */
 
 main {
-    display: flex;
-    align-items: center;
-    height: 75vh;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+  justify-content: center;
 }
 
 div .img {
+<<<<<<< HEAD
     height: 377px;
     width: 291px;
     background-repeat: no-repeat;
@@ -145,18 +150,37 @@ div .img {
 .sonu {
     background-image: url(../images/sonu1.jpg);
     background-position: 0px -101px;
+=======
+  height: 377px;
+  width: 291px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 127px;
+  box-shadow: 0px 6px 6px grey;
+  border-radius: 6px;
+}
+
+.sonu {
+  background-image: url(../images/sonu.jpg);
+>>>>>>> ab324466cb724f007f25bfb58558cbcfa1ab0ed3
 }
 
 .mango {
-    background-image: url(../images/mango.jpg);
-    display: none;
+  background-image: url(../images/mango.jpg);
+  display: none;
 }
 
 h1.main_heading {
+<<<<<<< HEAD
     font-weight: normal;
     font-size: 3rem;
     margin-left: 50px;
     animation: text 2s;
+=======
+  font-weight: normal;
+  font-size: 3rem;
+  margin-left: 50px;
+>>>>>>> ab324466cb724f007f25bfb58558cbcfa1ab0ed3
 }
 
 
@@ -169,98 +193,157 @@ h1.main_heading {
 } */
 
 #head {
+<<<<<<< HEAD
     animation: colorchange 2s infinite;
     font-weight: bold;
+=======
+  animation: colorchange 2s infinite;
+>>>>>>> ab324466cb724f007f25bfb58558cbcfa1ab0ed3
 }
 
 @keyframes colorchange {
-    0% {
-        color: rgb(255, 58, 23);
-    }
-    25% {
-        color: rgb(219, 76, 76);
-    }
-    50% {
-        color: tomato;
-    }
-    100% {
-        color: red;
-    }
+  0% {
+    color: rgb(255, 58, 23);
+  }
+  25% {
+    color: rgb(219, 76, 76);
+  }
+  50% {
+    color: tomato;
+  }
+  100% {
+    color: red;
+  }
 }
 
 .spinner {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: -50px;
-    animation: spin 6s linear infinite;
-    z-index: 3;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: -50px;
+  animation: spin 6s linear infinite;
+  z-index: 3;
 }
 
 @keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
-
 
 /* main styling end */
 
+/* marquee text */
+.marquee {
+  text-align: center;
+  margin: 30px 0;
+  height: 20px;
+  width: 150px;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
 
-/* about section styling */
+.marquee-text {
+  height: 100%;
+  width: 300px;
+  position: relative;
+  z-index: 2;
+}
+.marquee-text h5 {
+  position: relative;
+  color: black;
+  position: relative;
+  height: 100%;
+  width: 350px;
+  margin: 0;
+  z-index: -1;
 
+  overflow: hidden;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  /* transform: translateX(100%); */
+  animation: marqueeText 15s linear infinite;
+}
+@keyframes marqueeText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 .about-wrapper {
-    display: flex;
-    height: 400px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .left-wrapper {
-    flex-basis: 40%;
-    padding: 50px 0;
-    justify-content: center;
-    height: 100%;
+  flex-basis: 40%;
+  padding: 50px 0;
+  justify-content: center;
+  height: 100%;
 }
 
 .left-wrapper a {
-    padding: 0 5px;
-    color: black;
+  padding: 0 5px;
+  color: black;
+  padding: 0 5px;
+  color: black;
+  font-size: 25px;
 }
 
 .left-wrapper a span {
-    padding: 0 10px;
-    font-size: 18px;
-    color: black;
+  padding: 0 10px;
+  font-size: 18px;
+  color: black;
 }
 
 .left-wrapper a:hover span {
-    transform: translateX(5px);
-    transition: 2s;
-    color: black;
+  transform: translateX(5px);
+  transition: 2s;
+  color: black;
 }
 
 .left-wrapper li a {
-    padding: 0 10px;
-    font-size: 20px;
+  padding: 0 10px;
+  font-size: 20px;
 }
 
 .right-wrapper {
-    flex-basis: 60%;
-    height: 100%;
+  flex-basis: 60%;
+  height: 100%;
 }
 
 .right-wrapper h3 {
-    padding: 20px 80px;
-    font-size: 25px;
-    text-align: justify;
+  padding: 20px 80px;
+  font-size: 25px;
+  text-align: justify;
 }
 
 .right-wrapper p {
-    padding: 10px 80px;
-    text-align: justify;
-    font-size: 16px;
-    font-weight: bold;
+  padding: 10px 80px;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* work section style */
+#work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: cyan;
 }
