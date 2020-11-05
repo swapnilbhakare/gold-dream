@@ -125,7 +125,7 @@ ul li a span:hover:after {
 main {
     display: flex;
     align-items: center;
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     justify-content: center;
 }
@@ -152,9 +152,7 @@ div .img {
     }
 }
 
-.sonu {
-    background-image: url(../images/sonu1.jpg);
-    background-position: 0px -101px;
+.img {
     height: 377px;
     width: 291px;
     background-repeat: no-repeat;
@@ -165,7 +163,8 @@ div .img {
 }
 
 .sonu {
-    background-image: url(../images/sonu.jpg);
+    background-image: url(../images/sonu1.jpg);
+    background-position: 0px -101px;
 }
 
 .mango {
