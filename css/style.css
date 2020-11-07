@@ -13,9 +13,9 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   /* font-family: "Noto Sans JP", sans-serif; */
-  /* font-family: "Itim", cursive; */
+  font-family: "Montserrat", sans-serif;
 }
 
 li {
@@ -33,6 +33,7 @@ header {
   justify-content: center;
   color: var(--secoundary-color);
   padding: 0 20px;
+  overflow: hidden;
 }
 
 /* headaer logo */
@@ -53,8 +54,6 @@ header .logo {
 nav {
   width: 50%;
   margin-left: 50px;
-  justify-content: center;
-  font-size: 21px;
   position: fixed;
   right: 100px;
   justify-content: center;
@@ -122,6 +121,7 @@ main {
   height: 100vh;
   width: 100%;
   justify-content: center;
+  overflow: hidden;
 }
 
 div .img {
@@ -166,14 +166,17 @@ div .img {
   display: none;
 }
 
+.main_content {
+  width: 600px;
+  margin-right: 60px;
+  overflow: hidden;
+}
+
 h1.main_heading {
-  font-weight: normal;
-  font-size: 3rem;
-  margin-left: 50px;
   animation: text 2s;
   font-weight: normal;
-  font-size: 3rem;
-  margin-left: 50px;
+  font-size: 2.1rem;
+  margin: 0px 50px;
 }
 
 /* @keyframes text {
@@ -187,7 +190,7 @@ h1.main_heading {
 #head {
   animation: colorchange 2s infinite;
   font-weight: bold;
-  animation: colorchange 2s infinite;
+  font-size: 52px;
 }
 
 @keyframes colorchange {
@@ -206,10 +209,13 @@ h1.main_heading {
 }
 
 .spinner {
+  background-image: url(../images/smile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   width: 150px;
   height: 150px;
-  left: -50px;
+  left: -37px;
   animation: spin 6s linear infinite;
   z-index: 3;
 }
@@ -227,7 +233,6 @@ h1.main_heading {
 
 .marquee {
   text-align: center;
-  margin: 30px 0;
   height: 20px;
   width: 150px;
   overflow: hidden;
@@ -279,6 +284,7 @@ h1.main_heading {
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .left-wrapper {
@@ -286,6 +292,7 @@ h1.main_heading {
   padding: 50px 0;
   justify-content: center;
   height: 100%;
+  overflow: hidden;
 }
 
 .left-wrapper a {
@@ -316,6 +323,7 @@ h1.main_heading {
 .right-wrapper {
   flex-basis: 60%;
   height: 100%;
+  overflow: hidden;
 }
 
 .right-wrapper h3 {
@@ -334,6 +342,7 @@ h1.main_heading {
 /* work section style */
 #work {
   flex-wrap: nowrap;
+  overflow: hidden;
 }
 #work .item {
   background-color: rosybrown;
@@ -397,6 +406,7 @@ h1.main_heading {
   display: block;
   height: 400px;
   padding: 30px;
+  overflow: hidden;
 }
 .content h2 {
   position: relative;
@@ -408,35 +418,7 @@ h1.main_heading {
   transform-origin: left;
   transform: scaleX(1);
 }
-.content h2::before {
-  content: "";
-  position: absolute;
-  touch-action: 0;
-  left: 0;
-  transform-origin: right;
-  transition: 0.5s;
-}
-.content h3 {
-  position: relative;
-  margin: 5px 0 0;
-  padding: 0;
-  display: inline-block;
-  font-size: 2em;
-  transition: 0.8s;
-  transform-origin: right;
-  transform: scaleX(1);
-}
-.content h3::before {
-  content: "";
-  position: absolute;
-  touch-action: 0;
-  left: 0;
-  transform-origin: right;
-  transition: 0.8s;
-}
-.content p {
-  transition: 1.5s;
-}
+
 .content a {
   position: relative;
   background-color: tomato;

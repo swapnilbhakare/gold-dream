@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/aos.css">
+
 </head>
 
 <body>
@@ -43,13 +45,20 @@
         <main>
 
             <div class="main_content">
-                <h1 class="main_heading">We help people by building design for them :) and help them to achieve there
-                    dreams we are <br /><span id="head">Gold Dream..</span></h1>
-                <img src="/images/spinner.png" class="spinner">
+                <h1 class="main_heading">We Develop Best User Inteface System For Web :) And Help People To Achieve
+                    There Dreams We Are <br /><span id="head">Gold Dream..</span></h1>
+                <div class="spinner"></div>
             </div>
 
             <div class="slider">
                 <div class="slider-items">
+                    <div class="marquee">
+                        <div class="marquee-text">
+                            <h5>Gold Dream partners swapnil and sonali :)</h5>
+                        </div>
+                        <!--  -->
+
+                    </div>
                     <div class="img sonu" onclick="plusSlides(-1)"></div>
                     <div class="img mango" onclick="plusSlides(1)"></div>
                 </div>
@@ -57,17 +66,11 @@
 
         </main>
         <!-- main/ -->
-        <!-- marqueee -->
-        <div class="marquee">
-            <div class="marquee-text">
-                <h5>Gold Dream partners swapnil and sonali :)</h5>
-            </div>
-            <!--  -->
 
-        </div>
+
         <!-- about section -->
         <section id="about-wrapper " class="about-wrapper ">
-            <div class="left-wrapper " id="social-links ">
+            <div class="left-wrapper  " data-aos="fade-right" id="social-links ">
                 <a href=" " aria-label="Instagram ">Instagram <span class="fa fa-arrow-right "
                         aria-hidden="true "></span>
                 </a>
@@ -76,7 +79,7 @@
                 <a href=" " aria-label="Twitter ">Twitter <span class="fa fa-arrow-right " aria-hidden="true "></span>
                 </a>
             </div>
-            <div class="right-wrapper " id="about-me ">
+            <div class="right-wrapper " id="about-me " data-aos="fade-left">
                 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In egestas augue nec iaculis tristique.
                     Cras eros est, rutrum ultrices rhoncus ac, interdum vitae arcu. Proin ultrices sem et tortor
                     viverra, a vehicula justo consequat.
@@ -102,54 +105,49 @@
             </div>
 
             </a>
+            <!-- first -->
+            <div class="row">
+                <!-- first -->
+                <div class="content">
+                    <h2 data-aos="fade-right">Lorem ipsum dolor sit amet.</h2>
+                    <h3 data-aos="fade-right"> Ipsum dolor Loremsit.</h3>
+                    <p data-aos="fade-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolores
+                        repellendus similique,
+                        esse eius architecto assumenda voluptas atque molestias impedit!</p>
+                    <a data-aos="fade-left" href="">Read More</a>
+                </div>
+                <div class="img-wrapper" data-aos='fade-left'>
+                    <img src="./images/img-1.jpg" alt="">
+                </div>
+            </div>
+            <!-- secound -->
+            <div class="row">
+                <!-- first -->
 
-            <div class="row">
-                <!-- first -->
-                <div class="content">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
-                    <h3> Ipsum dolor Loremsit.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolores repellendus similique,
-                        esse eius architecto assumenda voluptas atque molestias impedit!</p>
-                    <a href="">Read More</a>
+                <div class="img-wrapper" data-aos='fade-right'>
+                    <img src="./images/img-2.jpg" alt="">
                 </div>
-                <div class="img-wrapper">
-                    <img src="./images/img-1.jpg" alt="">
+                <div class="content">
+                    <h2 data-aos="fade-left">Lorem ipsum dolor sit amet.</h2>
+                    <h3 data-aos="fade-left"> Ipsum dolor Loremsit.</h3>
+                    <p data-aos="fade-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolores
+                        repellendus similique,
+                        esse eius architecto assumenda voluptas atque molestias impedit!</p>
+                    <a data-aos="fade-right" href="">Read More</a>
                 </div>
             </div>
-            <div class="row">
-                <!-- first -->
-                <div class="content">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
-                    <h3> Ipsum dolor Loremsit.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolores repellendus similique,
-                        esse eius architecto assumenda voluptas atque molestias impedit!</p>
-                    <a href="">Read More</a>
-                </div>
-                <div class="img-wrapper">
-                    <img src="./images/img-1.jpg" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <!-- first -->
-                <div class="content">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
-                    <h3> Ipsum dolor Loremsit.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolores repellendus similique,
-                        esse eius architecto assumenda voluptas atque molestias impedit!</p>
-                    <a href="">Read More</a>
-                </div>
-                <div class="img-wrapper">
-                    <img src="./images/img-1.jpg" alt="">
-                </div>
-            </div>
+
 
         </section>
     </div>
     <script src="./js/main.js "></script>
     <script src="./js/scroll.js"></script>
-    <script>
-
-      
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./js/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            duration: 100,
+        });
     </script>
 </body>
 
