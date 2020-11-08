@@ -421,20 +421,40 @@ h1.main_heading {
 
 .content a {
   position: relative;
+
   background-color: tomato;
   color: white;
   padding: 15px 30px;
   display: inline-block;
   text-decoration: none;
   font-weight: 700px;
-  transition: 1.8s;
+  transition: 1s;
+}
+.content a:hover {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700px;
+  transition: 1.2s;
+  transform: rotate(360deg);
 }
 .row .img-wrapper {
+  text-align: center;
   flex-basis: 50%;
   height: 300px;
 }
 .img-wrapper img {
   position: relative;
-  width: 100%;
+  width: 600px;
   height: 400px;
+  transition: 1s;
+}
+.img-wrapper img:hover {
+  position: relative;
+  width: 610px;
+  height: 410px;
+  transform: rotate(360deg);
 }
