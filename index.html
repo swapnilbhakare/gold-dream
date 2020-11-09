@@ -15,11 +15,9 @@
 
 </head>
 
-<body>
+<body onscroll="scrollWin()">
 
     <div id="main-container">
-
-
         <!-- Header section -->
         <header>
             <!-- logo -->
@@ -30,20 +28,20 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#"> <span title="About">About</span></a>
+                        <a href="#" class="nav-link"> <span title="About">About</span></a>
                     </li>
                     <li>
-                        <a href="#work"> <span title="Work">Work</span></a>
+                        <a href="#work" class="nav-link"> <span title="Work">Work</span></a>
                     </li>
                     <li>
-                        <a href="#contact"> <span title="Contact">Contact</span></a>
+                        <a href="#contact" class="nav-link"> <span title="Contact">Contact</span></a>
                     </li>
                 </ul>
             </nav>
         </header>
+
         <!-- main  -->
         <main>
-
             <div class="main_content">
                 <h1 class="main_heading" data-aos="fade-right">We Develop Best User Inteface System For Web :) And Help People To Achieve There Dreams We Are <br /><span id=" head">Gold Dream..</span></h1>
                 <div class="spinner"></div>
@@ -55,20 +53,17 @@
                         <div class="marquee-text">
                             <h5>Gold Dream partners swapnil and sonali :)</h5>
                         </div>
-                        <!--  -->
-
                     </div>
                     <div class="img sonu" onclick="plusSlides(-1)"></div>
                     <div class="img mango" onclick="plusSlides(1)"></div>
                 </div>
             </div>
-
         </main>
         <!-- main/ -->
 
 
         <!-- about section -->
-        <section id="about-wrapper " class="about-wrapper ">
+        <section id="about-wrapper " class="about-wrapper scroll ">
             <div class="left-wrapper  " data-aos="fade-right" id="social-links ">
                 <a href=" " aria-label="Instagram ">Instagram <span class="fa fa-arrow-right "
                         aria-hidden="true "></span>
@@ -83,19 +78,17 @@
                 </h3>
                 <p data-aos="fade-left"> Fusce sagittis arcu ac risus fermentum euismod. Etiam in tristique ex. Sed elementum pulvinar vulputate. Curabitur suscipit arcu in tristique efficitur. Suspendisse et accumsan ligula, a facilisis tellus. Cras est justo, convallis quis
                     magna vitae, hendrerit posuere felis. Quisque non facilisis enim. </p>
-
             </div>
         </section>
 
         <!-- Work Secton -->
-        <section id="work" class="work-wrapper">
+        <section id="work" class="work-wrapper scroll">
             <!-- marqueee -->
             <div class="marquee-container">
                 <div class="marquee-left">
                     <div class="marquee-text">
                         <h5>our work</h5>
                     </div>
-                    <!--  -->
                 </div>
             </div>
 
@@ -133,21 +126,20 @@
                 <h4>Dont be shy,</br> <span>make the first move</span></h4>
             </div>
             <div class="footer-socialmedia">
-                <div class="marquee-container">
-                    <div class="marquee-left">
-                        <div class="marquee-text">
-                            <h5>stalk us on..</h5>
-                        </div>
-                    </div>
-                </div>
-                <p class="social-section"><a class="social-links" href="#">Frontend mentor</a><a class="social-links" href="#">Instagram</a>
+
+                <p class="social-section first"><a class="social-links" href="#">Frontend mentor</a><a class="social-links" href="#">Instagram</a>
                     <a class="social-links" href="#">LinkedIn</a>
                 </p>
                 <p class="social-section"><a class="social-links" href="#">LinkedIn</a><a class="social-links" href="#">Twitter</a>
                     <a class="social-links" href="#">Behance</a>
                 </p>
+                <p id="contact">START A CONVERSATION</p>
+                <span class="email">bhakare302@gmail.com</span>
+                <span class="email">sonawanesonali41@gmail.com</span>
             </div>
         </footer>
+        <hr/>
+        <span>@copywrite 2020 Dream Gold</div></span>
 
     </div>
     <script src="./js/main.js "></script>

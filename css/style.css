@@ -290,9 +290,6 @@ h1.main_heading {
     text-align: center;
     display: flex;
     height: 400px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     overflow: hidden;
 }
 
@@ -509,7 +506,7 @@ h4>span {
     width: 50%;
     text-align: center;
     margin-left: 23px;
-    font-size: 25px;
+    font-size: 18px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -519,13 +516,36 @@ p.social-section {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     align-items: center;
+    margin-top: -50px;
+}
+
+p.social-section.first {
+    margin-top: 100px;
 }
 
 a.social-links {
     color: white;
-    padding: 20px;
+    padding-top: 69px;
 }
 
-.footer-socialmedia>.marquee-text h5 {
-    color: white;
+
+/* This class is used in js for background change */
+
+.changeColor {
+    background: black;
+    transition: ease-in 2s;
+}
+
+p#contact {
+    text-align: left;
+    font-size: 13px;
+    text-decoration: underline;
+    padding: 13px 0px 0px 17px;
+}
+
+span.email {
+    text-align: left;
+    padding: 10px 0px 0px 17px;
+    font-size: 19px;
+    font-weight: bold;
 }
