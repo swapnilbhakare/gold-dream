@@ -32,14 +32,17 @@ function scrollWin() {
 
 
     bodyEl = document.querySelector("body")
+    linkEl = document.querySelectorAll(".nav-link")
     if (window.pageYOffset >= 500) {
         bodyEl.classList.add("changeColor")
         bodyEl.style.color = "white"
+        linkEl.style.color = "white"
 
     }
     if (window.pageYOffset <= 500) {
         bodyEl.classList.remove("changeColor")
         bodyEl.style.color = "black"
+        linkEl.style.color = "black"
 
     }
 }

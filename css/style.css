@@ -302,16 +302,14 @@ h1.main_heading {
 
 .left-wrapper a {
     padding: 0 5px;
-    color: black;
-    padding: 0 5px;
-    color: black;
+    color: red;
     font-size: 25px;
 }
 
 .left-wrapper a span {
     padding: 0 10px;
     font-size: 18px;
-    color: black;
+    color: red;
 }
 
 .left-wrapper a:hover span {
